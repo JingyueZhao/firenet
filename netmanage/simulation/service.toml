@@ -1,0 +1,13 @@
+Simulation = "NetManageService"
+Servers = 8
+BF = 2
+Rounds = 10
+CloseWait = 6000
+BaseHeight = 1
+MaxHeight = 1
+AdminNum = 50
+
+Hosts
+4
+64
+128

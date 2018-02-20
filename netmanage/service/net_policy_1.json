@@ -1,0 +1,6 @@
+{"Description":"block 2 input ports", "Num":4, "Rules":[
+	{"Match":{"Chain":"INPUT","Protocol":"TCP","Src":"ALL","Sports":"ALL","Dest":"ALL","Dports":"443,444"}, "Action":"DROP"},
+	{"Match":{"Chain":"INPUT","Protocol":"ALL","Src":"ALL","Sports":"ALL","Dest":"ALL","Dports":"ALL"}, "Action":"ACCEPT"},
+	{"Match":{"Chain":"OUTPUT","Protocol":"ALL","Src":"ALL","Sports":"ALL","Dest":"ALL","Dports":"ALL"}, "Action":"ACCEPT"},
+	{"Match":{"Chain":"FORWARD","Protocol":"ALL","Src":"ALL","Sports":"ALL","Dest":"ALL","Dports":"ALL"}, "Action":"ACCEPT"}
+	]}
